@@ -1,5 +1,5 @@
 # PreTeXt build outputs
-output/
+# output/   ← ADD # HERE TO COMMENT IT OUT
 generated-assets/
 
 # Python

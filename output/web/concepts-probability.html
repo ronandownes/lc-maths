@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Concepts of Probability</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Leaving Certificate Mathematics">
+<meta property="book:author" content="Mr Ronan Downes">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      $(document).trigger("runestone:mathjax-ready");
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<script src="https://cdn.geogebra.org/apps/deployggb.js"></script><link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="lc-maths-ol.html"><span class="title">Leaving Certificate Mathematics:</span> <span class="subtitle">Ordinary Level</span></a></h1>
+<p class="byline">Mr Ronan Downes</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><button id="calculator-toggle" class="toolbar-item button toggle" title="Show calculator" aria-expanded="false" aria-controls="calculator-container">Calc</button><div id="calculator-container" class="calculator-container" style="display: none; z-index:100;"><div id="geogebra-calculator"></div></div>
+<script>
+var ggbApp = new GGBApplet({"appName": "graphing",
+    "width": 330,
+    "height": 600,
+    "showToolBar": true,
+    "showAlgebraInput": true,
+    "perspective": "G/A",
+    "algebraInputPosition": "bottom",
+    "scaleContainerClass": "calculator-container",
+    "allowUpscale": true,
+    "autoHeight": true,
+    "disableAutoScale": false},
+true);
+</script><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="counting.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="stats-probability.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="random-processes.html" title="Next">Next</a></span>
+</div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="counting.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="stats-probability.html" title="Up">Up</a><a class="next-button button toolbar-item" href="random-processes.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter" class="internal"><span class="title">Front Matter</span></a><ul><li><a href="preface.html" data-scroll="preface" class="internal">How to Use This Book</a></li></ul>
+</li>
+<li class="link">
+<a href="stats-probability.html" data-scroll="stats-probability" class="internal"><span class="codenumber">1</span> <span class="title">Statistics and Probability</span></a><ul>
+<li><a href="counting.html" data-scroll="counting" class="internal">Counting</a></li>
+<li><a href="concepts-probability.html" data-scroll="concepts-probability" class="active">Concepts of Probability</a></li>
+<li><a href="random-processes.html" data-scroll="random-processes" class="internal">Outcomes of Random Processes</a></li>
+<li><a href="statistical-reasoning.html" data-scroll="statistical-reasoning" class="internal">Statistical Reasoning</a></li>
+<li><a href="collecting-data.html" data-scroll="collecting-data" class="internal">Finding, Collecting and Organising Data</a></li>
+<li><a href="representing-data.html" data-scroll="representing-data" class="internal">Representing Data Graphically and Numerically</a></li>
+<li><a href="analysing-data.html" data-scroll="analysing-data" class="internal">Analysing, Interpreting and Drawing Inferences</a></li>
+<li><a href="stats-probability-exercises.html" data-scroll="stats-probability-exercises" class="internal">Chapter Exercises</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="geometry-trig.html" data-scroll="geometry-trig" class="internal"><span class="codenumber">2</span> <span class="title">Geometry and Trigonometry</span></a><ul>
+<li><a href="synthetic-geometry.html" data-scroll="synthetic-geometry" class="internal">Synthetic Geometry</a></li>
+<li><a href="coordinate-geometry.html" data-scroll="coordinate-geometry" class="internal">Coordinate Geometry</a></li>
+<li><a href="trigonometry.html" data-scroll="trigonometry" class="internal">Trigonometry</a></li>
+<li><a href="transformations.html" data-scroll="transformations" class="internal">Transformation Geometry and Enlargements</a></li>
+<li><a href="geometry-trig-exercises.html" data-scroll="geometry-trig-exercises" class="internal">Chapter Exercises</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="number.html" data-scroll="number" class="internal"><span class="codenumber">3</span> <span class="title">Number</span></a><ul>
+<li><a href="number-systems-intro.html" data-scroll="number-systems-intro" class="internal">Number Systems</a></li>
+<li><a href="integers.html" data-scroll="integers" class="internal">Zero, Symmetry, and the Integers</a></li>
+<li><a href="primes.html" data-scroll="primes" class="internal">Primes and the Fundamental Theorem of Arithmetic</a></li>
+<li><a href="rationals.html" data-scroll="rationals" class="internal">Rational Numbers: Equivalence and Reducibility</a></li>
+<li><a href="reals.html" data-scroll="reals" class="internal">The Real Numbers: Continuity and Completeness</a></li>
+<li><a href="complex-numbers.html" data-scroll="complex-numbers" class="internal">Complex Numbers: The Final Extension</a></li>
+<li><a href="hierarchy.html" data-scroll="hierarchy" class="internal">The Hierarchy of Number Systems</a></li>
+<li><a href="number-systems-exercises.html" data-scroll="number-systems-exercises" class="internal">Chapter Exercises</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="algebra.html" data-scroll="algebra" class="internal"><span class="codenumber">4</span> <span class="title">Algebra</span></a><ul>
+<li><a href="expressions.html" data-scroll="expressions" class="internal">Expressions</a></li>
+<li><a href="solving-equations.html" data-scroll="solving-equations" class="internal">Solving Equations</a></li>
+<li><a href="inequalities.html" data-scroll="inequalities" class="internal">Inequalities</a></li>
+<li><a href="algebra-exercises.html" data-scroll="algebra-exercises" class="internal">Chapter Exercises</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="functions.html" data-scroll="functions" class="internal"><span class="codenumber">5</span> <span class="title">Functions</span></a><ul>
+<li><a href="function-basics.html" data-scroll="function-basics" class="internal">Functions</a></li>
+<li><a href="calculus.html" data-scroll="calculus" class="internal">Calculus</a></li>
+<li><a href="functions-exercises.html" data-scroll="functions-exercises" class="internal">Chapter Exercises</a></li>
+</ul>
+</li>
+<li class="link backmatter"><a href="backmatter.html" data-scroll="backmatter" class="internal"><span class="title">Back Matter</span></a></li>
+<li class="link"><a href="index-1.html" data-scroll="index-1" class="internal"><span class="title">Index</span></a></li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="concepts-probability"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.2</span> <span class="title">Concepts of Probability</span>
+</h2>
+<article class="objectives goal-like" id="objectives-2"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ul class="disc">
+<li id="li-8"><p id="p-14">Use set theory to discuss experiments, outcomes, sample spaces</p></li>
+<li id="li-9"><p id="p-15">Discuss basic rules of probability (AND/OR, mutually exclusive) using Venn diagrams</p></li>
+<li id="li-10"><p id="p-16">Calculate expected value and understand it need not be an outcome</p></li>
+<li id="li-11"><p id="p-17">Recognise the role of expected value in decision making and fair games</p></li>
+</ul></article><p id="p-18">Content to be added.</p></section></div></main>
+</div>
+</body>
+</html>
