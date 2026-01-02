@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="algebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Algebra</title>
+  
+  <introduction>
+    <p>
+      This chapter covers the Algebra strand of the LC Ordinary Level curriculum.
+    </p>
+  </introduction>
+  
+  <section xml:id="expressions">
+    <title>Expressions</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Evaluate expressions given variable values</p></li>
+        <li><p>Expand and regroup expressions</p></li>
+        <li><p>Factorise quadratic expressions</p></li>
+        <li><p>Add/subtract expressions of various forms</p></li>
+        <li><p>Use associative/distributive properties</p></li>
+        <li><p>Rearrange formulae</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+    
+    <example>
+      <title>Factorising Quadratics</title>
+      <statement>
+        <p>
+          Factorise <m>x^2 + 5x + 6</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>x^2 + 5x + 6 = (x+2)(x+3)</m>
+        </p>
+      </solution>
+    </example>
+  </section>
+
+  <section xml:id="solving-equations">
+    <title>Solving Equations</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Solve linear equations</p></li>
+        <li><p>Solve rational equations</p></li>
+        <li><p>Solve quadratic equations</p></li>
+        <li><p>Solve simultaneous linear equations (2 unknowns)</p></li>
+        <li><p>Solve one linear + one quadratic (restricted case)</p></li>
+        <li><p>Form quadratic equations given whole number roots</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+  </section>
+
+  <section xml:id="inequalities">
+    <title>Inequalities</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Solve linear inequalities</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+  </section>
+
+  <exercises xml:id="algebra-exercises">
+    <title>Chapter Exercises</title>
+    
+    <exercise>
+      <statement>
+        <p>
+          Practice problems to be added.
+        </p>
+      </statement>
+    </exercise>
+  </exercises>
+
+</chapter>

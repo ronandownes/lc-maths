@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="stats-probability" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Statistics and Probability</title>
+  
+  <introduction>
+    <p>
+      This chapter covers the Statistics and Probability strand of the LC Ordinary Level curriculum.
+    </p>
+  </introduction>
+  
+  <section xml:id="counting">
+    <title>Counting</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Count the arrangements of <m>n</m> distinct objects (<m>n!</m>)</p></li>
+        <li><p>Count the number of ways of arranging <m>r</m> objects from <m>n</m> distinct objects</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+    
+    <example>
+      <title>Factorial Notation</title>
+      <statement>
+        <p>
+          Calculate <m>5!</m>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>5! = 5 \times 4 \times 3 \times 2 \times 1 = 120</m>
+        </p>
+      </solution>
+    </example>
+  </section>
+
+  <section xml:id="concepts-probability">
+    <title>Concepts of Probability</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Use set theory to discuss experiments, outcomes, sample spaces</p></li>
+        <li><p>Discuss basic rules of probability (AND/OR, mutually exclusive) using Venn diagrams</p></li>
+        <li><p>Calculate expected value and understand it need not be an outcome</p></li>
+        <li><p>Recognise the role of expected value in decision making and fair games</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+  </section>
+
+  <section xml:id="random-processes">
+    <title>Outcomes of Random Processes</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Find probability that two independent events both occur</p></li>
+        <li><p>Apply understanding of Bernoulli trials</p></li>
+        <li><p>Solve problems involving up to 3 Bernoulli trials</p></li>
+        <li><p>Calculate probability that the 1st success occurs on the <m>n</m>th trial</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+  </section>
+
+  <section xml:id="statistical-reasoning">
+    <title>Statistical Reasoning</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Discuss populations and samples</p></li>
+        <li><p>Decide to what extent conclusions can be generalised</p></li>
+        <li><p>Work with different types of bivariate data</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+  </section>
+
+  <section xml:id="collecting-data">
+    <title>Finding, Collecting and Organising Data</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Select a simple random sample</p></li>
+        <li><p>Recognise importance of representativeness</p></li>
+        <li><p>Discuss sample surveys, observational studies, designed experiments</p></li>
+        <li><p>Design a plan and collect data</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+  </section>
+
+  <section xml:id="representing-data">
+    <title>Representing Data Graphically and Numerically</title>
+    
+    <subsection xml:id="graphical-representation">
+      <title>Graphical Representation</title>
+      
+      <objectives>
+        <ul>
+          <li><p>Describe sample using appropriate graphical/numerical methods</p></li>
+          <li><p>Explore distribution, symmetry, skewness</p></li>
+          <li><p>Compare data sets using back-to-back stem and leaf plots</p></li>
+          <li><p>Determine relationship between variables using scatterplots</p></li>
+          <li><p>Recognise correlation (<m>-1</m> to <m>+1</m>) and its meaning</p></li>
+          <li><p>Match correlation coefficients to scatterplots</p></li>
+          <li><p>Understand correlation does not imply causality</p></li>
+        </ul>
+      </objectives>
+      
+      <p>
+        Content to be added.
+      </p>
+    </subsection>
+
+    <subsection xml:id="numerical-representation">
+      <title>Numerical Representation</title>
+      
+      <objectives>
+        <ul>
+          <li><p>Recognise standard deviation and IQR as measures of variability</p></li>
+          <li><p>Use calculator for standard deviation</p></li>
+          <li><p>Find quartiles and IQR</p></li>
+          <li><p>Use IQR appropriately</p></li>
+          <li><p>Recognise outliers</p></li>
+        </ul>
+      </objectives>
+      
+      <p>
+        Content to be added.
+      </p>
+    </subsection>
+  </section>
+
+  <section xml:id="analysing-data">
+    <title>Analysing, Interpreting and Drawing Inferences</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Recognise sampling variability</p></li>
+        <li><p>Use tools to describe variability and draw inferences</p></li>
+        <li><p>Interpret analysis in context of original question</p></li>
+        <li><p>Interpret histograms</p></li>
+        <li><p>Make decisions using empirical rule</p></li>
+        <li><p>Recognise hypothesis test concept</p></li>
+        <li><p>Calculate margin of error for proportion</p></li>
+        <li><p>Conduct hypothesis test on proportion using margin of error</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+  </section>
+
+  <exercises xml:id="stats-probability-exercises">
+    <title>Chapter Exercises</title>
+    
+    <exercise>
+      <statement>
+        <p>
+          Practice problems to be added.
+        </p>
+      </statement>
+    </exercise>
+  </exercises>
+
+</chapter>

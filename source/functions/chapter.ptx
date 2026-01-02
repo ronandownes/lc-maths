@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions</title>
+  
+  <introduction>
+    <p>
+      This chapter covers the Functions strand of the LC Ordinary Level curriculum.
+    </p>
+  </introduction>
+  
+  <section xml:id="function-basics">
+    <title>Functions</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Recognise a function assigns unique output to input</p></li>
+        <li><p>Form composite functions</p></li>
+        <li><p>Graph various types of functions</p></li>
+        <li><p>Interpret function equations</p></li>
+        <li><p>Use graphical methods to solve equations</p></li>
+        <li><p>Investigate limit of a function</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+    
+    <example>
+      <title>Function Notation</title>
+      <statement>
+        <p>
+          If <m>f(x) = 2x + 3</m>, find <m>f(5)</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>f(5) = 2(5) + 3 = 10 + 3 = 13</m>
+        </p>
+      </solution>
+    </example>
+  </section>
+
+  <section xml:id="calculus">
+    <title>Calculus</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Find first and second derivatives of linear/quadratic/cubic functions</p></li>
+        <li><p>Associate derivative with slope and tangent line</p></li>
+        <li><p>Apply differentiation to rates of change</p></li>
+        <li><p>Find maxima and minima</p></li>
+        <li><p>Sketch curves using derivatives</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+    
+    <example>
+      <title>Basic Differentiation</title>
+      <statement>
+        <p>
+          Find the derivative of <m>f(x) = x^2 + 3x + 2</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <m>f'(x) = 2x + 3</m>
+        </p>
+      </solution>
+    </example>
+  </section>
+
+  <exercises xml:id="functions-exercises">
+    <title>Chapter Exercises</title>
+    
+    <exercise>
+      <statement>
+        <p>
+          Practice problems to be added.
+        </p>
+      </statement>
+    </exercise>
+  </exercises>
+
+</chapter>

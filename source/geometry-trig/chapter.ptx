@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="geometry-trig" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Geometry and Trigonometry</title>
+  
+  <introduction>
+    <p>
+      This chapter covers the Geometry and Trigonometry strand of the LC Ordinary Level curriculum.
+    </p>
+  </introduction>
+  
+  <section xml:id="synthetic-geometry">
+    <title>Synthetic Geometry</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Perform constructions 16-21</p></li>
+        <li><p>Use terms: theorem, proof, axiom, corollary, converse, implies</p></li>
+        <li><p>Investigate and use theorems 7, 8, 11, 12, 13, 16, 17, 18, 20, 21 and corollary 6</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+  </section>
+
+  <section xml:id="coordinate-geometry">
+    <title>Coordinate Geometry</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Use slopes to show lines parallel/perpendicular</p></li>
+        <li><p>Recognise <m>ax + by + c = 0</m> as linear</p></li>
+        <li><p>Solve slope problems</p></li>
+        <li><p>Calculate area of a triangle</p></li>
+        <li><p>Recognise circle equation</p></li>
+        <li><p>Solve problems involving a line and circle centred at origin</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+    
+    <example>
+      <title>Circle Equation</title>
+      <statement>
+        <p>
+          Find the equation of a circle with centre <m>(0, 0)</m> and radius <m>5</m>.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Using the standard form with <m>h=0</m>, <m>k=0</m>, <m>r=5</m>:
+        </p>
+        <p>
+          <m>x^2 + y^2 = 25</m>
+        </p>
+      </solution>
+    </example>
+  </section>
+
+  <section xml:id="trigonometry">
+    <title>Trigonometry</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Use Pythagoras' theorem (2D)</p></li>
+        <li><p>Use trigonometry to find area of triangle</p></li>
+        <li><p>Solve problems using sine and cosine rules (2D)</p></li>
+        <li><p>Define trigonometric ratios for all angles</p></li>
+        <li><p>Solve problems involving arc length and sector area</p></li>
+        <li><p>Work with trigonometric ratios in surd form</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+  </section>
+
+  <section xml:id="transformations">
+    <title>Transformation Geometry and Enlargements</title>
+    
+    <objectives>
+      <ul>
+        <li><p>Investigate enlargements and effect on area</p></li>
+        <li><p>Identify centre of enlargement and scale factor</p></li>
+        <li><p>Solve problems involving enlargements</p></li>
+      </ul>
+    </objectives>
+    
+    <p>
+      Content to be added.
+    </p>
+  </section>
+
+  <exercises xml:id="geometry-trig-exercises">
+    <title>Chapter Exercises</title>
+    
+    <exercise>
+      <statement>
+        <p>
+          Practice problems to be added.
+        </p>
+      </statement>
+    </exercise>
+  </exercises>
+
+</chapter>
